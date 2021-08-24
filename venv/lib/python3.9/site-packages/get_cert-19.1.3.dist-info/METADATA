@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: get-cert
+Version: 19.1.3
+Summary: Tool for downloading ssl certificates from remote servers.
+Home-page: https://github.com/michalmazurek/get_cert
+License: MIT
+Keywords: ssl,tool
+Author: Michal Mazurek
+Author-email: michal@mazurek-inc.co.uk
+Requires-Python: >=3.6,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Internet :: WWW/HTTP
+Requires-Dist: click (>=7.0,<8.0)
+Description-Content-Type: text/markdown
+
+# get_cert
+
+Tool for downloading ssl certificates from remote servers.
+
+## Installation
+
+Just use PIP:
+
+```bash
+pip install get_cert
+```
+
+## Usage
+
+```bash
+$ python -m get_cert --help
+Usage: get_cert.py [OPTIONS] URL
+
+  Retrieve and print out the ssl certificate.
+
+  Args:     URL (str): url to be picked up
+
+Options:
+  --help  Show this message and exit.
+```
+
